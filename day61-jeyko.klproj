@@ -1,0 +1,1791 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<klxml v='14' a='GL3'>
+<document>
+<properties>
+<creator><![CDATA[net.hexler.KodeLife]]></creator>
+<creatorVersion><![CDATA[0.8.10.119]]></creatorVersion>
+<label><![CDATA[]]></label>
+<versionMajor>1</versionMajor>
+<versionMinor>1</versionMinor>
+<versionPatch>1</versionPatch>
+<author><![CDATA[]]></author>
+<comment><![CDATA[]]></comment>
+<enabled>1</enabled>
+<size>
+<x>1280</x>
+<y>720</y>
+</size>
+<clearColor>
+<x>0</x>
+<y>0</y>
+<z>0</z>
+<w>1</w>
+</clearColor>
+<selectedRenderPassIndex>0</selectedRenderPassIndex>
+<selectedKontrolPanelIndex>0</selectedKontrolPanelIndex>
+<uiExpandedPreviewDocument>1</uiExpandedPreviewDocument>
+<uiExpandedPreviewRenderPass>1</uiExpandedPreviewRenderPass>
+<uiExpandedProperties>1</uiExpandedProperties>
+</properties>
+<params>
+<uiExpanded>1</uiExpanded>
+<param type='CLOCK'>
+<displayName><![CDATA[Time]]></displayName>
+<variableName><![CDATA[iTime]]></variableName>
+<uiExpanded>1</uiExpanded>
+<running>1</running>
+<direction>1</direction>
+<speed>1</speed>
+<loop>0</loop>
+<loopStart>0</loopStart>
+<loopEnd>6.28319</loopEnd>
+</param>
+<param type='FRAME_DELTA'>
+<displayName><![CDATA[Time Delta]]></displayName>
+<variableName><![CDATA[iTimeDelta]]></variableName>
+<uiExpanded>1</uiExpanded>
+</param>
+<param type='FRAME_NUMBER'>
+<displayName><![CDATA[Frame Number]]></displayName>
+<variableName><![CDATA[iFrame]]></variableName>
+<uiExpanded>1</uiExpanded>
+</param>
+<param type='FRAME_RESOLUTION'>
+<displayName><![CDATA[Resolution]]></displayName>
+<variableName><![CDATA[iResolution]]></variableName>
+<uiExpanded>1</uiExpanded>
+</param>
+<param type='INPUT_MOUSE_SIMPLE'>
+<displayName><![CDATA[Mouse]]></displayName>
+<variableName><![CDATA[iMouse]]></variableName>
+<uiExpanded>1</uiExpanded>
+<variant>1</variant>
+<normalize>0</normalize>
+<invert>
+<x>0</x>
+<y>0</y>
+</invert>
+</param>
+<param type='DATE'>
+<displayName><![CDATA[Date]]></displayName>
+<variableName><![CDATA[iDate]]></variableName>
+<uiExpanded>1</uiExpanded>
+</param>
+</params>
+<passes>
+<pass type='RENDER'>
+<properties>
+<label><![CDATA[Buffer A]]></label>
+<enabled>1</enabled>
+<selectedShaderStageIndex>4</selectedShaderStageIndex>
+<primitiveIndex>0</primitiveIndex>
+<primitiveType><![CDATA[TRIANGLES]]></primitiveType>
+<instanceCount>1</instanceCount>
+<uiExpanded>1</uiExpanded>
+<renderstate>
+<colormask>
+<r>1</r>
+<g>1</g>
+<b>1</b>
+<a>1</a>
+<uiExpanded>0</uiExpanded>
+</colormask>
+<blendstate>
+<enabled>0</enabled>
+<srcBlendRGB><![CDATA[SRC_ALPHA]]></srcBlendRGB>
+<dstBlendRGB><![CDATA[ONE_MINUS_SRC_ALPHA]]></dstBlendRGB>
+<srcBlendA><![CDATA[ONE]]></srcBlendA>
+<dstBlendA><![CDATA[ONE_MINUS_SRC_ALPHA]]></dstBlendA>
+<equationRGB><![CDATA[ADD]]></equationRGB>
+<equationA><![CDATA[ADD]]></equationA>
+<uiExpanded>0</uiExpanded>
+</blendstate>
+<cullstate>
+<enabled>0</enabled>
+<ccw>1</ccw>
+<uiExpanded>0</uiExpanded>
+</cullstate>
+</renderstate>
+<rendertarget>
+<size>
+<x>1280</x>
+<y>720</y>
+</size>
+<resolutionMode><![CDATA[PROJECT]]></resolutionMode>
+<uiExpanded>1</uiExpanded>
+<color>
+<clear>
+<x>0</x>
+<y>0</y>
+<z>0</z>
+<w>1</w>
+</clear>
+<uiExpanded>0</uiExpanded>
+</color>
+<depth>
+<clear>1</clear>
+<uiExpanded>0</uiExpanded>
+</depth>
+</rendertarget>
+<transform>
+<uiExpanded>1</uiExpanded>
+<projection>
+<type>0</type>
+<perspective>
+<fov>60</fov>
+<z>
+<x>1</x>
+<y>1000</y>
+</z>
+</perspective>
+<orthographic>
+<bounds>
+<x>-1</x>
+<y>1</y>
+<z>-1</z>
+<w>1</w>
+</bounds>
+<z>
+<x>0</x>
+<y>10</y>
+</z>
+</orthographic>
+<uiExpanded>0</uiExpanded>
+</projection>
+<view>
+<eye>
+<x>0</x>
+<y>0</y>
+<z>3</z>
+</eye>
+<center>
+<x>0</x>
+<y>0</y>
+<z>0</z>
+</center>
+<up>
+<x>0</x>
+<y>1</y>
+<z>0</z>
+</up>
+<uiExpanded>0</uiExpanded>
+</view>
+<model>
+<scale>
+<x>1</x>
+<y>1</y>
+<z>1</z>
+</scale>
+<rotate>
+<x>0</x>
+<y>0</y>
+<z>0</z>
+</rotate>
+<translate>
+<x>0</x>
+<y>0</y>
+<z>0</z>
+</translate>
+<uiExpanded>0</uiExpanded>
+</model>
+</transform>
+</properties>
+<params>
+<uiExpanded>1</uiExpanded>
+</params>
+<stages>
+<stage type='VERTEX'>
+<properties>
+<enabled>1</enabled>
+<hidden>0</hidden>
+<locked>0</locked>
+<fileWatch>0</fileWatch>
+<fileWatchPath><![CDATA[]]></fileWatchPath>
+<uiExpanded>1</uiExpanded>
+</properties>
+<params>
+<uiExpanded>1</uiExpanded>
+<param type='TRANSFORM_MVP'>
+<displayName><![CDATA[Model View Projection Matrix]]></displayName>
+<variableName><![CDATA[mvp]]></variableName>
+<uiExpanded>1</uiExpanded>
+</param>
+</params>
+<shader>
+<source profile='GL2'><![CDATA[uniform float time;
+uniform vec2 resolution;
+uniform vec2 mouse;
+uniform vec3 spectrum;
+uniform mat4 mvp;
+
+attribute vec4 a_position;
+attribute vec3 a_normal;
+attribute vec2 a_texcoord;
+
+varying vec3 v_normal;
+varying vec2 v_texcoord;
+
+void main(void)
+{
+    gl_Position = mvp * a_position;
+    v_normal    = a_normal;
+    v_texcoord  = a_texcoord;
+}
+]]></source>
+<source profile='GL3'><![CDATA[#version 150
+
+uniform float time;
+uniform vec2 resolution;
+uniform vec2 mouse;
+uniform vec3 spectrum;
+uniform mat4 mvp;
+
+in vec4 a_position;
+in vec3 a_normal;
+in vec2 a_texcoord;
+
+out VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} outData;
+
+void main(void)
+{
+    // Some drivers don't like position being written here
+    // with the tessellation stages enabled also.
+    // Comment next line when Tess.Eval shader is enabled.
+    gl_Position = mvp * a_position;
+
+    outData.v_position = a_position;
+    outData.v_normal = a_normal;
+    outData.v_texcoord = a_texcoord;
+}
+]]></source>
+<source profile='ES3'><![CDATA[#version 300 es
+
+uniform float time;
+uniform vec2 resolution;
+uniform vec2 mouse;
+uniform vec3 spectrum;
+uniform mat4 mvp;
+
+in vec4 a_position;
+in vec3 a_normal;
+in vec2 a_texcoord;
+
+out VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} outData;
+
+void main(void)
+{
+    // Some drivers don't like position being written here
+    // with the tessellation stages enabled also.
+    // Comment next line when Tess.Eval shader is enabled.
+    gl_Position = mvp * a_position;
+
+    outData.v_position = a_position;
+    outData.v_normal = a_normal;
+    outData.v_texcoord = a_texcoord;
+}
+]]></source>
+<source profile='DX9'><![CDATA[struct VS_INPUT
+{
+    float4 a_position : POSITION;
+    float3 a_normal   : NORMAL;
+    float2 a_texcoord : TEXCOORD0;
+};
+
+struct VS_OUTPUT
+{
+    float4 v_position : POSITION;
+    float3 v_normal   : NORMAL;
+    float2 v_texcoord : TEXCOORD0;
+};
+
+float time;
+float2 resolution;
+float2 mouse;
+float3 spectrum;
+float4x4 mvp;
+
+VS_OUTPUT vs_main(in VS_INPUT In)
+{
+    VS_OUTPUT Out;
+    Out.v_position = mul(mvp, In.a_position);
+    Out.v_normal   = In.a_normal;
+    Out.v_texcoord = In.a_texcoord;
+    return Out;
+}
+]]></source>
+<source profile='MTL'><![CDATA[#include <metal_stdlib>
+using namespace metal;
+
+struct VS_INPUT
+{
+    float4 a_position [[attribute(0)]];
+    float3 a_normal   [[attribute(1)]];
+    float2 a_texcoord [[attribute(2)]];
+};
+
+struct VS_OUTPUT
+{
+    float4 v_position [[position]];
+    float3 v_normal;
+    float2 v_texcoord;
+};
+
+struct VS_UNIFORM
+{
+    float time;
+    float2 resolution;
+    float2 mouse;
+    float3 spectrum;
+    float4x4 mvp;
+};
+
+vertex
+VS_OUTPUT vs_main(
+    VS_INPUT input [[stage_in]],
+    constant VS_UNIFORM& uniform [[buffer(16)]])
+{
+    VS_OUTPUT out;
+    out.v_position = uniform.mvp * input.a_position;
+    out.v_normal   = input.a_normal;
+    out.v_texcoord = input.a_texcoord;
+    return out;
+}
+]]></source>
+</shader>
+</stage>
+<stage type='TESS_CONTROL'>
+<properties>
+<enabled>0</enabled>
+<hidden>0</hidden>
+<locked>0</locked>
+<fileWatch>0</fileWatch>
+<fileWatchPath><![CDATA[]]></fileWatchPath>
+<uiExpanded>1</uiExpanded>
+</properties>
+<params>
+<uiExpanded>1</uiExpanded>
+</params>
+<shader>
+<source profile='GL3'><![CDATA[#version 400
+
+layout(vertices = 3) out;
+
+in VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} inData[];
+
+out VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} outData[];
+
+const float TessLevelInner = 1;
+const float TessLevelOuter = 1;
+
+#define ID gl_InvocationID
+
+uniform float time;
+uniform vec2 resolution;
+uniform vec2 mouse;
+uniform vec3 spectrum;
+
+void main()
+{
+    outData[ID].v_position = inData[ID].v_position;
+    outData[ID].v_normal = inData[ID].v_normal;
+    outData[ID].v_texcoord = inData[ID].v_texcoord;
+
+    if(ID == 0)
+    {
+        gl_TessLevelInner[0] = TessLevelInner;
+        gl_TessLevelOuter[0] = TessLevelOuter;
+        gl_TessLevelOuter[1] = TessLevelOuter;
+        gl_TessLevelOuter[2] = TessLevelOuter;
+    }
+}
+]]></source>
+<source profile='ES3'><![CDATA[#version 310 es
+#extension GL_EXT_shader_io_blocks: enable
+#extension GL_EXT_tessellation_shader: enable
+
+layout(vertices = 3) out;
+
+in VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} inData[];
+
+out VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} outData[];
+
+const float TessLevelInner = 1.;
+const float TessLevelOuter = 1.;
+
+#define ID gl_InvocationID
+
+uniform float time;
+uniform vec2 resolution;
+uniform vec2 mouse;
+uniform vec3 spectrum;
+
+void main()
+{
+    outData[ID].v_position = inData[ID].v_position;
+    outData[ID].v_normal = inData[ID].v_normal;
+    outData[ID].v_texcoord = inData[ID].v_texcoord;
+
+    if(ID == 0)
+    {
+        gl_TessLevelInner[0] = TessLevelInner;
+        gl_TessLevelOuter[0] = TessLevelOuter;
+        gl_TessLevelOuter[1] = TessLevelOuter;
+        gl_TessLevelOuter[2] = TessLevelOuter;
+    }
+}
+]]></source>
+</shader>
+</stage>
+<stage type='TESS_EVAL'>
+<properties>
+<enabled>0</enabled>
+<hidden>0</hidden>
+<locked>0</locked>
+<fileWatch>0</fileWatch>
+<fileWatchPath><![CDATA[]]></fileWatchPath>
+<uiExpanded>1</uiExpanded>
+</properties>
+<params>
+<uiExpanded>1</uiExpanded>
+</params>
+<shader>
+<source profile='GL3'><![CDATA[#version 400
+
+layout(triangles, equal_spacing, ccw) in;
+
+in VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} inData[];
+
+out VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} outData;
+
+uniform float time;
+uniform vec2 resolution;
+uniform vec2 mouse;
+uniform vec3 spectrum;
+uniform mat4 mvp;
+
+void main()
+{
+    outData.v_position =
+    gl_TessCoord[0] * inData[0].v_position +
+    gl_TessCoord[1] * inData[1].v_position +
+    gl_TessCoord[2] * inData[2].v_position;
+
+    outData.v_normal =
+    gl_TessCoord[0] * inData[0].v_normal +
+    gl_TessCoord[1] * inData[1].v_normal +
+    gl_TessCoord[2] * inData[2].v_normal;
+
+    outData.v_texcoord =
+    gl_TessCoord[0] * inData[0].v_texcoord +
+    gl_TessCoord[1] * inData[1].v_texcoord +
+    gl_TessCoord[2] * inData[2].v_texcoord;
+
+    gl_Position = mvp * outData.v_position;
+}
+]]></source>
+<source profile='ES3'><![CDATA[#version 310 es
+#extension GL_EXT_shader_io_blocks: enable
+#extension GL_EXT_tessellation_shader: enable
+
+layout(triangles, equal_spacing, ccw) in;
+
+in VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} inData[];
+
+out VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} outData;
+
+uniform float time;
+uniform vec2 resolution;
+uniform vec2 mouse;
+uniform vec3 spectrum;
+uniform mat4 mvp;
+
+void main()
+{
+    outData.v_position =
+    gl_TessCoord[0] * inData[0].v_position +
+    gl_TessCoord[1] * inData[1].v_position +
+    gl_TessCoord[2] * inData[2].v_position;
+
+    outData.v_normal =
+    gl_TessCoord[0] * inData[0].v_normal +
+    gl_TessCoord[1] * inData[1].v_normal +
+    gl_TessCoord[2] * inData[2].v_normal;
+
+    outData.v_texcoord =
+    gl_TessCoord[0] * inData[0].v_texcoord +
+    gl_TessCoord[1] * inData[1].v_texcoord +
+    gl_TessCoord[2] * inData[2].v_texcoord;
+
+    gl_Position = mvp * outData.v_position;
+}
+]]></source>
+</shader>
+</stage>
+<stage type='GEOMETRY'>
+<properties>
+<enabled>0</enabled>
+<hidden>0</hidden>
+<locked>0</locked>
+<fileWatch>0</fileWatch>
+<fileWatchPath><![CDATA[]]></fileWatchPath>
+<uiExpanded>1</uiExpanded>
+</properties>
+<params>
+<uiExpanded>1</uiExpanded>
+</params>
+<shader>
+<source profile='GL3'><![CDATA[#version 150
+
+layout(triangles) in;
+layout(triangle_strip, max_vertices = 3) out;
+
+in VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} inData[];
+
+out VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} outData;
+
+uniform float time;
+uniform vec2 resolution;
+uniform vec2 mouse;
+uniform vec3 spectrum;
+uniform mat4 mvp;
+
+void main()
+{
+    outData.v_texcoord = inData[0].v_texcoord;
+    outData.v_normal = inData[0].v_normal;
+    gl_Position = gl_in[0].gl_Position;
+    EmitVertex();
+
+    outData.v_texcoord = inData[1].v_texcoord;
+    outData.v_normal = inData[1].v_normal;
+    gl_Position = gl_in[1].gl_Position;
+    EmitVertex();
+
+    outData.v_texcoord = inData[2].v_texcoord;
+    outData.v_normal = inData[2].v_normal;
+    gl_Position = gl_in[2].gl_Position;
+    EmitVertex();
+
+    EndPrimitive();
+}
+]]></source>
+<source profile='ES3'><![CDATA[#version 310 es
+#extension GL_EXT_shader_io_blocks: enable
+#extension GL_EXT_geometry_shader: enable
+
+layout(triangles) in;
+layout(triangle_strip, max_vertices = 3) out;
+
+in VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} inData[];
+
+out VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} outData;
+
+uniform float time;
+uniform vec2 resolution;
+uniform vec2 mouse;
+uniform vec3 spectrum;
+uniform mat4 mvp;
+
+void main()
+{
+    outData.v_texcoord = inData[0].v_texcoord;
+    outData.v_normal = inData[0].v_normal;
+    gl_Position = gl_in[0].gl_Position;
+    EmitVertex();
+
+    outData.v_texcoord = inData[1].v_texcoord;
+    outData.v_normal = inData[1].v_normal;
+    gl_Position = gl_in[1].gl_Position;
+    EmitVertex();
+
+    outData.v_texcoord = inData[2].v_texcoord;
+    outData.v_normal = inData[2].v_normal;
+    gl_Position = gl_in[2].gl_Position;
+    EmitVertex();
+
+    EndPrimitive();
+}
+]]></source>
+</shader>
+</stage>
+<stage type='FRAGMENT'>
+<properties>
+<enabled>1</enabled>
+<hidden>0</hidden>
+<locked>0</locked>
+<fileWatch>0</fileWatch>
+<fileWatchPath><![CDATA[]]></fileWatchPath>
+<uiExpanded>1</uiExpanded>
+</properties>
+<params>
+<uiExpanded>1</uiExpanded>
+</params>
+<shader>
+<source profile='GL2'><![CDATA[#ifdef GL_ES
+precision highp float;
+#endif
+
+uniform float time;
+uniform vec2 resolution;
+uniform vec2 mouse;
+uniform vec3 spectrum;
+
+uniform sampler2D texture0;
+uniform sampler2D texture1;
+uniform sampler2D texture2;
+uniform sampler2D texture3;
+uniform sampler2D prevFrame;
+uniform sampler2D prevPass;
+
+varying vec3 v_normal;
+varying vec2 v_texcoord;
+
+void main(void)
+{
+    vec2 uv = -1. + 2. * v_texcoord;
+    gl_FragColor = vec4(
+        abs(sin(cos(time+3.*uv.y)*2.*uv.x+time)),
+        abs(cos(sin(time+2.*uv.x)*3.*uv.y+time)),
+        spectrum.x * 100.,
+        1.0);
+}
+]]></source>
+<source profile='GL3'><![CDATA[#version 150
+in VertexData {
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} inData;
+out vec4 fragColor;
+uniform vec2 iResolution;
+uniform float iTime;
+uniform float iTimeDelta;
+uniform int iFrame;
+uniform vec4 iMouse;
+uniform vec4 iDate;
+uniform sampler2D iChannel0;
+uniform sampler2D iChannel1;
+uniform sampler2D iChannel2;
+uniform sampler2D iChannel3;
+void mainImage(out vec4, in vec2);
+void main(void) { mainImage(fragColor,inData.v_texcoord * iResolution.xy); }
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+// Day 61 by jeyko
+// https://www.shadertoy.com/view/WlKXRR
+
+vec3 getRd(vec3 ro, vec3 lookAt, vec2 uv){
+    vec3 dir = normalize(lookAt - ro);
+    vec3 right = normalize(cross(vec3(0,1,0), dir));
+    vec3 up = normalize(cross(dir, right));
+    return normalize(dir + right*uv.x + up * uv.y);
+}
+#define pmod(p,x) mod(p,x) - 0.5*x
+#define mx (iTime*0. + 20.*iMouse.x/iResolution.x)
+
+#define pi acos(-1.)
+#define tau (2.*pi)
+#define T (iTime*0.125)
+#define rot(x) mat2(cos(x),-sin(x),sin(x),cos(x))
+#define pal(a,b,c,d,e) (a + b*cos(tau*(c*d + e)))
+
+vec3 pA = vec3(0);
+
+vec2 map(vec3 p){
+    vec2 d = vec2(10e6);
+    
+    float sc = 2.4;
+    float dp = dot(p,p);
+    p /= dp;
+    p*= sc;
+    p=sin(p+vec3(T*tau,1.4 - 1.*T*tau,.1 + sin(iTime*0.5)*0.6));
+    pA = p;
+    d.x = 0.;
+    d.x = max(d.x,-length(p) + 1.4);
+    return d*dp/sc;
+}
+
+vec3 glow = vec3(0);
+vec2 trace(vec3 ro, vec3 rd,inout vec3 p,inout float t, inout bool hit){
+    vec2 d = vec2(10e6);
+    t = 0.; hit = false; p = ro;
+    
+    for(int i = 0; i < 100; i++){
+        d = map(p);
+        glow += exp(-d.x*90.);
+        if(d.x < 0.0001){
+            hit = true;
+            break;
+        }
+        t += d.x;
+        p = ro + rd*t;
+    }
+    
+    
+    return d;
+}
+
+vec3 getNormal(vec3 p){
+    vec2 t = vec2(0.001,0);
+    return normalize(map(p).x - vec3(
+        map(p - t.xyy).x,
+        map(p - t.yxy).x,
+        map(p - t.yyx).x
+    ));
+}
+
+void mainImage( out vec4 fragColor, in vec2 fragCoord )
+{
+    vec2 uv = (fragCoord - 0.5*iResolution.xy)/iResolution.y;
+    vec3 col = vec3(0);
+    
+    uv *= 1. + dot(uv,uv)*1.9;
+    vec3 ro = vec3(0.,0.,1.)*0.9;
+
+    ro.x += sin(mx)*0.;
+    vec3 lookAt = vec3(0.);
+    vec3 rd = getRd(ro, lookAt, uv);
+    rd.xy *= rot(sin(iTime*0.5)*0.6);
+    rd.xz *= rot(sin(iTime*0.75)*0.2);
+    vec3 p; float t; bool hit;
+    vec2 d = trace(ro, rd, p, t, hit);
+    
+    if(hit){
+        vec3 pAA = pA;
+        float modD = 0.1;
+        float id = floor(pA.x/modD);
+        pA = pmod(pA, modD);
+        col += pal(0.,vec3(1,0.7 + sin(id + iTime*0.25)*0.24,1.1)*1., vec3(5.,3.75 + cos(iTime + length(p))*0.04,1.1 ), 1.5, id*0.3 + pAA.z*0.5 + pAA.y*0.2 + iTime*0.12);
+        col *= step(abs(sin(id*4.))*1., 0.7);
+        col -= exp((abs(pA.x) - modD*0.5)*100.);
+
+        col -= exp(-length(p)*20.)*10.;
+        //col += smoothstep(0.01,0., length(pA.x) - modD*0.175);
+    }
+    
+    col -= glow*0.016;
+    col = clamp(col, 0., 1.);
+
+    col *= 2.2;
+    col = pow(col, vec3(0.45));
+    col *= 1. - 1.*pow(abs(uv.x)*0.55,2.9)*0.5;
+    col *= 1. - 1.*pow(abs(uv.y)*1.0,2.9)*0.5;
+    
+    fragColor = vec4(col,1.0);
+}
+]]></source>
+<source profile='ES3'><![CDATA[#version 300 es
+
+precision highp float;
+
+uniform float time;
+uniform vec2 resolution;
+uniform vec2 mouse;
+uniform vec3 spectrum;
+
+uniform sampler2D texture0;
+uniform sampler2D texture1;
+uniform sampler2D texture2;
+uniform sampler2D texture3;
+uniform sampler2D prevFrame;
+uniform sampler2D prevPass;
+
+in VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} inData;
+
+out vec4 fragColor;
+
+void main(void)
+{
+    vec2 uv = -1. + 2. * inData.v_texcoord;
+    fragColor = vec4(
+        abs(sin(cos(time+3.*uv.y)*2.*uv.x+time)),
+        abs(cos(sin(time+2.*uv.x)*3.*uv.y+time)),
+        spectrum.x * 100.,
+        1.0);
+}
+]]></source>
+<source profile='DX9'><![CDATA[struct PS_INPUT
+{
+    float3 v_normal   : NORMAL;
+    float2 v_texcoord : TEXCOORD0;
+};
+
+struct PS_OUTPUT
+{
+    float4 color : COLOR0;
+};
+
+float time;
+float2 resolution;
+float2 mouse;
+float3 spectrum;
+
+sampler2D texture0;
+sampler2D texture1;
+sampler2D texture2;
+sampler2D texture3;
+sampler2D prevFrame;
+sampler2D prevPass;
+
+PS_OUTPUT ps_main(in PS_INPUT In)
+{
+    PS_OUTPUT Out;
+    float2 uv = -1. + 2. * In.v_texcoord;
+    Out.color = float4(
+        abs(sin(cos(time+3.*uv.y)*2.*uv.x+time)),
+        abs(cos(sin(time+2.*uv.x)*3.*uv.y+time)),
+        spectrum.x * 100.,
+        1.0);
+    return Out;
+}
+]]></source>
+<source profile='MTL'><![CDATA[#include <metal_stdlib>
+using namespace metal;
+
+struct FS_INPUT
+{
+    float3 v_normal;
+    float2 v_texcoord;
+};
+
+struct FS_UNIFORM
+{
+    float time;
+    float2 resolution;
+    float2 mouse;
+    float3 spectrum;
+};
+
+fragment
+float4 fs_main(
+    FS_INPUT In [[stage_in]],
+    constant FS_UNIFORM& uniform [[buffer(16)]],
+    texture2d<float> prevFrame [[texture(0)]],
+    texture2d<float> prevPass [[texture(1)]],
+    texture2d<float> texture0 [[texture(2)]],
+    texture2d<float> texture1 [[texture(3)]],
+    texture2d<float> texture2 [[texture(4)]],
+    texture2d<float> texture3 [[texture(5)]],
+    sampler prevFrameSmplr [[sampler(0)]],
+    sampler prevPassSmplr [[sampler(1)]],
+    sampler texture0Smplr [[sampler(2)]],
+    sampler texture1Smplr [[sampler(3)]],
+    sampler texture2Smplr [[sampler(4)]],
+    sampler texture3Smplr [[sampler(5)]])
+{
+    float2 uv = -1. + 2. * In.v_texcoord;
+    float4 col = float4(
+        abs(sin(cos(uniform.time+3.*uv.y)*2.*uv.x+uniform.time)),
+        abs(cos(sin(uniform.time+2.*uv.x)*3.*uv.y+uniform.time)),
+        uniform.spectrum.x * 100.,
+        1.0);
+    return col;
+}
+]]></source>
+</shader>
+</stage>
+</stages>
+</pass>
+<pass type='RENDER'>
+<properties>
+<label><![CDATA[Image]]></label>
+<enabled>1</enabled>
+<selectedShaderStageIndex>4</selectedShaderStageIndex>
+<primitiveIndex>0</primitiveIndex>
+<primitiveType><![CDATA[TRIANGLES]]></primitiveType>
+<instanceCount>1</instanceCount>
+<uiExpanded>1</uiExpanded>
+<renderstate>
+<colormask>
+<r>1</r>
+<g>1</g>
+<b>1</b>
+<a>1</a>
+<uiExpanded>0</uiExpanded>
+</colormask>
+<blendstate>
+<enabled>0</enabled>
+<srcBlendRGB><![CDATA[SRC_ALPHA]]></srcBlendRGB>
+<dstBlendRGB><![CDATA[ONE_MINUS_SRC_ALPHA]]></dstBlendRGB>
+<srcBlendA><![CDATA[ONE]]></srcBlendA>
+<dstBlendA><![CDATA[ONE_MINUS_SRC_ALPHA]]></dstBlendA>
+<equationRGB><![CDATA[ADD]]></equationRGB>
+<equationA><![CDATA[ADD]]></equationA>
+<uiExpanded>0</uiExpanded>
+</blendstate>
+<cullstate>
+<enabled>0</enabled>
+<ccw>1</ccw>
+<uiExpanded>0</uiExpanded>
+</cullstate>
+</renderstate>
+<rendertarget>
+<size>
+<x>1280</x>
+<y>720</y>
+</size>
+<resolutionMode><![CDATA[PROJECT]]></resolutionMode>
+<uiExpanded>1</uiExpanded>
+<color>
+<clear>
+<x>0</x>
+<y>0</y>
+<z>0</z>
+<w>1</w>
+</clear>
+<uiExpanded>0</uiExpanded>
+</color>
+<depth>
+<clear>1</clear>
+<uiExpanded>0</uiExpanded>
+</depth>
+</rendertarget>
+<transform>
+<uiExpanded>1</uiExpanded>
+<projection>
+<type>0</type>
+<perspective>
+<fov>60</fov>
+<z>
+<x>1</x>
+<y>1000</y>
+</z>
+</perspective>
+<orthographic>
+<bounds>
+<x>-1</x>
+<y>1</y>
+<z>-1</z>
+<w>1</w>
+</bounds>
+<z>
+<x>0</x>
+<y>10</y>
+</z>
+</orthographic>
+<uiExpanded>0</uiExpanded>
+</projection>
+<view>
+<eye>
+<x>0</x>
+<y>0</y>
+<z>3</z>
+</eye>
+<center>
+<x>0</x>
+<y>0</y>
+<z>0</z>
+</center>
+<up>
+<x>0</x>
+<y>1</y>
+<z>0</z>
+</up>
+<uiExpanded>0</uiExpanded>
+</view>
+<model>
+<scale>
+<x>1</x>
+<y>1</y>
+<z>1</z>
+</scale>
+<rotate>
+<x>0</x>
+<y>0</y>
+<z>0</z>
+</rotate>
+<translate>
+<x>0</x>
+<y>0</y>
+<z>0</z>
+</translate>
+<uiExpanded>0</uiExpanded>
+</model>
+</transform>
+</properties>
+<params>
+<uiExpanded>1</uiExpanded>
+</params>
+<stages>
+<stage type='VERTEX'>
+<properties>
+<enabled>1</enabled>
+<hidden>0</hidden>
+<locked>0</locked>
+<fileWatch>0</fileWatch>
+<fileWatchPath><![CDATA[]]></fileWatchPath>
+<uiExpanded>1</uiExpanded>
+</properties>
+<params>
+<uiExpanded>1</uiExpanded>
+<param type='TRANSFORM_MVP'>
+<displayName><![CDATA[Model View Projection Matrix]]></displayName>
+<variableName><![CDATA[mvp]]></variableName>
+<uiExpanded>1</uiExpanded>
+</param>
+</params>
+<shader>
+<source profile='GL2'><![CDATA[uniform float time;
+uniform vec2 resolution;
+uniform vec2 mouse;
+uniform vec3 spectrum;
+uniform mat4 mvp;
+
+attribute vec4 a_position;
+attribute vec3 a_normal;
+attribute vec2 a_texcoord;
+
+varying vec3 v_normal;
+varying vec2 v_texcoord;
+
+void main(void)
+{
+    gl_Position = mvp * a_position;
+    v_normal    = a_normal;
+    v_texcoord  = a_texcoord;
+}
+]]></source>
+<source profile='GL3'><![CDATA[#version 150
+
+uniform float time;
+uniform vec2 resolution;
+uniform vec2 mouse;
+uniform vec3 spectrum;
+uniform mat4 mvp;
+
+in vec4 a_position;
+in vec3 a_normal;
+in vec2 a_texcoord;
+
+out VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} outData;
+
+void main(void)
+{
+    // Some drivers don't like position being written here
+    // with the tessellation stages enabled also.
+    // Comment next line when Tess.Eval shader is enabled.
+    gl_Position = mvp * a_position;
+
+    outData.v_position = a_position;
+    outData.v_normal = a_normal;
+    outData.v_texcoord = a_texcoord;
+}
+]]></source>
+<source profile='ES3'><![CDATA[#version 300 es
+
+uniform float time;
+uniform vec2 resolution;
+uniform vec2 mouse;
+uniform vec3 spectrum;
+uniform mat4 mvp;
+
+in vec4 a_position;
+in vec3 a_normal;
+in vec2 a_texcoord;
+
+out VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} outData;
+
+void main(void)
+{
+    // Some drivers don't like position being written here
+    // with the tessellation stages enabled also.
+    // Comment next line when Tess.Eval shader is enabled.
+    gl_Position = mvp * a_position;
+
+    outData.v_position = a_position;
+    outData.v_normal = a_normal;
+    outData.v_texcoord = a_texcoord;
+}
+]]></source>
+<source profile='DX9'><![CDATA[struct VS_INPUT
+{
+    float4 a_position : POSITION;
+    float3 a_normal   : NORMAL;
+    float2 a_texcoord : TEXCOORD0;
+};
+
+struct VS_OUTPUT
+{
+    float4 v_position : POSITION;
+    float3 v_normal   : NORMAL;
+    float2 v_texcoord : TEXCOORD0;
+};
+
+float time;
+float2 resolution;
+float2 mouse;
+float3 spectrum;
+float4x4 mvp;
+
+VS_OUTPUT vs_main(in VS_INPUT In)
+{
+    VS_OUTPUT Out;
+    Out.v_position = mul(mvp, In.a_position);
+    Out.v_normal   = In.a_normal;
+    Out.v_texcoord = In.a_texcoord;
+    return Out;
+}
+]]></source>
+<source profile='MTL'><![CDATA[#include <metal_stdlib>
+using namespace metal;
+
+struct VS_INPUT
+{
+    float4 a_position [[attribute(0)]];
+    float3 a_normal   [[attribute(1)]];
+    float2 a_texcoord [[attribute(2)]];
+};
+
+struct VS_OUTPUT
+{
+    float4 v_position [[position]];
+    float3 v_normal;
+    float2 v_texcoord;
+};
+
+struct VS_UNIFORM
+{
+    float time;
+    float2 resolution;
+    float2 mouse;
+    float3 spectrum;
+    float4x4 mvp;
+};
+
+vertex
+VS_OUTPUT vs_main(
+    VS_INPUT input [[stage_in]],
+    constant VS_UNIFORM& uniform [[buffer(16)]])
+{
+    VS_OUTPUT out;
+    out.v_position = uniform.mvp * input.a_position;
+    out.v_normal   = input.a_normal;
+    out.v_texcoord = input.a_texcoord;
+    return out;
+}
+]]></source>
+</shader>
+</stage>
+<stage type='TESS_CONTROL'>
+<properties>
+<enabled>0</enabled>
+<hidden>0</hidden>
+<locked>0</locked>
+<fileWatch>0</fileWatch>
+<fileWatchPath><![CDATA[]]></fileWatchPath>
+<uiExpanded>1</uiExpanded>
+</properties>
+<params>
+<uiExpanded>1</uiExpanded>
+</params>
+<shader>
+<source profile='GL3'><![CDATA[#version 400
+
+layout(vertices = 3) out;
+
+in VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} inData[];
+
+out VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} outData[];
+
+const float TessLevelInner = 1;
+const float TessLevelOuter = 1;
+
+#define ID gl_InvocationID
+
+uniform float time;
+uniform vec2 resolution;
+uniform vec2 mouse;
+uniform vec3 spectrum;
+
+void main()
+{
+    outData[ID].v_position = inData[ID].v_position;
+    outData[ID].v_normal = inData[ID].v_normal;
+    outData[ID].v_texcoord = inData[ID].v_texcoord;
+
+    if(ID == 0)
+    {
+        gl_TessLevelInner[0] = TessLevelInner;
+        gl_TessLevelOuter[0] = TessLevelOuter;
+        gl_TessLevelOuter[1] = TessLevelOuter;
+        gl_TessLevelOuter[2] = TessLevelOuter;
+    }
+}
+]]></source>
+<source profile='ES3'><![CDATA[#version 310 es
+#extension GL_EXT_shader_io_blocks: enable
+#extension GL_EXT_tessellation_shader: enable
+
+layout(vertices = 3) out;
+
+in VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} inData[];
+
+out VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} outData[];
+
+const float TessLevelInner = 1.;
+const float TessLevelOuter = 1.;
+
+#define ID gl_InvocationID
+
+uniform float time;
+uniform vec2 resolution;
+uniform vec2 mouse;
+uniform vec3 spectrum;
+
+void main()
+{
+    outData[ID].v_position = inData[ID].v_position;
+    outData[ID].v_normal = inData[ID].v_normal;
+    outData[ID].v_texcoord = inData[ID].v_texcoord;
+
+    if(ID == 0)
+    {
+        gl_TessLevelInner[0] = TessLevelInner;
+        gl_TessLevelOuter[0] = TessLevelOuter;
+        gl_TessLevelOuter[1] = TessLevelOuter;
+        gl_TessLevelOuter[2] = TessLevelOuter;
+    }
+}
+]]></source>
+</shader>
+</stage>
+<stage type='TESS_EVAL'>
+<properties>
+<enabled>0</enabled>
+<hidden>0</hidden>
+<locked>0</locked>
+<fileWatch>0</fileWatch>
+<fileWatchPath><![CDATA[]]></fileWatchPath>
+<uiExpanded>1</uiExpanded>
+</properties>
+<params>
+<uiExpanded>1</uiExpanded>
+</params>
+<shader>
+<source profile='GL3'><![CDATA[#version 400
+
+layout(triangles, equal_spacing, ccw) in;
+
+in VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} inData[];
+
+out VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} outData;
+
+uniform float time;
+uniform vec2 resolution;
+uniform vec2 mouse;
+uniform vec3 spectrum;
+uniform mat4 mvp;
+
+void main()
+{
+    outData.v_position =
+    gl_TessCoord[0] * inData[0].v_position +
+    gl_TessCoord[1] * inData[1].v_position +
+    gl_TessCoord[2] * inData[2].v_position;
+
+    outData.v_normal =
+    gl_TessCoord[0] * inData[0].v_normal +
+    gl_TessCoord[1] * inData[1].v_normal +
+    gl_TessCoord[2] * inData[2].v_normal;
+
+    outData.v_texcoord =
+    gl_TessCoord[0] * inData[0].v_texcoord +
+    gl_TessCoord[1] * inData[1].v_texcoord +
+    gl_TessCoord[2] * inData[2].v_texcoord;
+
+    gl_Position = mvp * outData.v_position;
+}
+]]></source>
+<source profile='ES3'><![CDATA[#version 310 es
+#extension GL_EXT_shader_io_blocks: enable
+#extension GL_EXT_tessellation_shader: enable
+
+layout(triangles, equal_spacing, ccw) in;
+
+in VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} inData[];
+
+out VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} outData;
+
+uniform float time;
+uniform vec2 resolution;
+uniform vec2 mouse;
+uniform vec3 spectrum;
+uniform mat4 mvp;
+
+void main()
+{
+    outData.v_position =
+    gl_TessCoord[0] * inData[0].v_position +
+    gl_TessCoord[1] * inData[1].v_position +
+    gl_TessCoord[2] * inData[2].v_position;
+
+    outData.v_normal =
+    gl_TessCoord[0] * inData[0].v_normal +
+    gl_TessCoord[1] * inData[1].v_normal +
+    gl_TessCoord[2] * inData[2].v_normal;
+
+    outData.v_texcoord =
+    gl_TessCoord[0] * inData[0].v_texcoord +
+    gl_TessCoord[1] * inData[1].v_texcoord +
+    gl_TessCoord[2] * inData[2].v_texcoord;
+
+    gl_Position = mvp * outData.v_position;
+}
+]]></source>
+</shader>
+</stage>
+<stage type='GEOMETRY'>
+<properties>
+<enabled>0</enabled>
+<hidden>0</hidden>
+<locked>0</locked>
+<fileWatch>0</fileWatch>
+<fileWatchPath><![CDATA[]]></fileWatchPath>
+<uiExpanded>1</uiExpanded>
+</properties>
+<params>
+<uiExpanded>1</uiExpanded>
+</params>
+<shader>
+<source profile='GL3'><![CDATA[#version 150
+
+layout(triangles) in;
+layout(triangle_strip, max_vertices = 3) out;
+
+in VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} inData[];
+
+out VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} outData;
+
+uniform float time;
+uniform vec2 resolution;
+uniform vec2 mouse;
+uniform vec3 spectrum;
+uniform mat4 mvp;
+
+void main()
+{
+    outData.v_texcoord = inData[0].v_texcoord;
+    outData.v_normal = inData[0].v_normal;
+    gl_Position = gl_in[0].gl_Position;
+    EmitVertex();
+
+    outData.v_texcoord = inData[1].v_texcoord;
+    outData.v_normal = inData[1].v_normal;
+    gl_Position = gl_in[1].gl_Position;
+    EmitVertex();
+
+    outData.v_texcoord = inData[2].v_texcoord;
+    outData.v_normal = inData[2].v_normal;
+    gl_Position = gl_in[2].gl_Position;
+    EmitVertex();
+
+    EndPrimitive();
+}
+]]></source>
+<source profile='ES3'><![CDATA[#version 310 es
+#extension GL_EXT_shader_io_blocks: enable
+#extension GL_EXT_geometry_shader: enable
+
+layout(triangles) in;
+layout(triangle_strip, max_vertices = 3) out;
+
+in VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} inData[];
+
+out VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} outData;
+
+uniform float time;
+uniform vec2 resolution;
+uniform vec2 mouse;
+uniform vec3 spectrum;
+uniform mat4 mvp;
+
+void main()
+{
+    outData.v_texcoord = inData[0].v_texcoord;
+    outData.v_normal = inData[0].v_normal;
+    gl_Position = gl_in[0].gl_Position;
+    EmitVertex();
+
+    outData.v_texcoord = inData[1].v_texcoord;
+    outData.v_normal = inData[1].v_normal;
+    gl_Position = gl_in[1].gl_Position;
+    EmitVertex();
+
+    outData.v_texcoord = inData[2].v_texcoord;
+    outData.v_normal = inData[2].v_normal;
+    gl_Position = gl_in[2].gl_Position;
+    EmitVertex();
+
+    EndPrimitive();
+}
+]]></source>
+</shader>
+</stage>
+<stage type='FRAGMENT'>
+<properties>
+<enabled>1</enabled>
+<hidden>0</hidden>
+<locked>0</locked>
+<fileWatch>0</fileWatch>
+<fileWatchPath><![CDATA[]]></fileWatchPath>
+<uiExpanded>1</uiExpanded>
+</properties>
+<params>
+<uiExpanded>1</uiExpanded>
+<param type='FRAME_PREV_PASS'>
+<displayName><![CDATA[iChannel0]]></displayName>
+<variableName><![CDATA[iChannel0]]></variableName>
+<uiExpanded>1</uiExpanded>
+<renderPassIndex>0</renderPassIndex>
+<attachment>1</attachment>
+<variant>0</variant>
+<samplerState>
+<minFilter><![CDATA[LINEAR]]></minFilter>
+<magFilter><![CDATA[LINEAR]]></magFilter>
+<wrapS><![CDATA[CLAMP]]></wrapS>
+<wrapT><![CDATA[CLAMP]]></wrapT>
+</samplerState>
+<imageParams>
+<accessMode><![CDATA[READ_ONLY]]></accessMode>
+</imageParams>
+</param>
+</params>
+<shader>
+<source profile='GL2'><![CDATA[#ifdef GL_ES
+precision highp float;
+#endif
+
+uniform float time;
+uniform vec2 resolution;
+uniform vec2 mouse;
+uniform vec3 spectrum;
+
+uniform sampler2D texture0;
+uniform sampler2D texture1;
+uniform sampler2D texture2;
+uniform sampler2D texture3;
+uniform sampler2D prevFrame;
+uniform sampler2D prevPass;
+
+varying vec3 v_normal;
+varying vec2 v_texcoord;
+
+void main(void)
+{
+    vec2 uv = -1. + 2. * v_texcoord;
+    gl_FragColor = vec4(
+        abs(sin(cos(time+3.*uv.y)*2.*uv.x+time)),
+        abs(cos(sin(time+2.*uv.x)*3.*uv.y+time)),
+        spectrum.x * 100.,
+        1.0);
+}
+]]></source>
+<source profile='GL3'><![CDATA[#version 150
+in VertexData {
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} inData;
+out vec4 fragColor;
+uniform vec2 iResolution;
+uniform float iTime;
+uniform float iTimeDelta;
+uniform int iFrame;
+uniform vec4 iMouse;
+uniform vec4 iDate;
+uniform sampler2D iChannel0;
+uniform sampler2D iChannel1;
+uniform sampler2D iChannel2;
+uniform sampler2D iChannel3;
+void mainImage(out vec4, in vec2);
+void main(void) { mainImage(fragColor,inData.v_texcoord * iResolution.xy); }
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+// thanks to mla and Kali!
+// They have super nice examples on inversion
+
+// it's really simple, basically
+// p /= dot(p,p);
+// p = sin(p);
+// SDFs
+// return distance*dot(p,p);
+
+
+// and ofc Inigo quilez for pallete!
+
+
+void mainImage( out vec4 fragColor, in vec2 fragCoord )
+{
+    
+    fragColor = texture(iChannel0, fragCoord/iResolution.xy);
+}
+]]></source>
+<source profile='ES3'><![CDATA[#version 300 es
+
+precision highp float;
+
+uniform float time;
+uniform vec2 resolution;
+uniform vec2 mouse;
+uniform vec3 spectrum;
+
+uniform sampler2D texture0;
+uniform sampler2D texture1;
+uniform sampler2D texture2;
+uniform sampler2D texture3;
+uniform sampler2D prevFrame;
+uniform sampler2D prevPass;
+
+in VertexData
+{
+    vec4 v_position;
+    vec3 v_normal;
+    vec2 v_texcoord;
+} inData;
+
+out vec4 fragColor;
+
+void main(void)
+{
+    vec2 uv = -1. + 2. * inData.v_texcoord;
+    fragColor = vec4(
+        abs(sin(cos(time+3.*uv.y)*2.*uv.x+time)),
+        abs(cos(sin(time+2.*uv.x)*3.*uv.y+time)),
+        spectrum.x * 100.,
+        1.0);
+}
+]]></source>
+<source profile='DX9'><![CDATA[struct PS_INPUT
+{
+    float3 v_normal   : NORMAL;
+    float2 v_texcoord : TEXCOORD0;
+};
+
+struct PS_OUTPUT
+{
+    float4 color : COLOR0;
+};
+
+float time;
+float2 resolution;
+float2 mouse;
+float3 spectrum;
+
+sampler2D texture0;
+sampler2D texture1;
+sampler2D texture2;
+sampler2D texture3;
+sampler2D prevFrame;
+sampler2D prevPass;
+
+PS_OUTPUT ps_main(in PS_INPUT In)
+{
+    PS_OUTPUT Out;
+    float2 uv = -1. + 2. * In.v_texcoord;
+    Out.color = float4(
+        abs(sin(cos(time+3.*uv.y)*2.*uv.x+time)),
+        abs(cos(sin(time+2.*uv.x)*3.*uv.y+time)),
+        spectrum.x * 100.,
+        1.0);
+    return Out;
+}
+]]></source>
+<source profile='MTL'><![CDATA[#include <metal_stdlib>
+using namespace metal;
+
+struct FS_INPUT
+{
+    float3 v_normal;
+    float2 v_texcoord;
+};
+
+struct FS_UNIFORM
+{
+    float time;
+    float2 resolution;
+    float2 mouse;
+    float3 spectrum;
+};
+
+fragment
+float4 fs_main(
+    FS_INPUT In [[stage_in]],
+    constant FS_UNIFORM& uniform [[buffer(16)]],
+    texture2d<float> prevFrame [[texture(0)]],
+    texture2d<float> prevPass [[texture(1)]],
+    texture2d<float> texture0 [[texture(2)]],
+    texture2d<float> texture1 [[texture(3)]],
+    texture2d<float> texture2 [[texture(4)]],
+    texture2d<float> texture3 [[texture(5)]],
+    sampler prevFrameSmplr [[sampler(0)]],
+    sampler prevPassSmplr [[sampler(1)]],
+    sampler texture0Smplr [[sampler(2)]],
+    sampler texture1Smplr [[sampler(3)]],
+    sampler texture2Smplr [[sampler(4)]],
+    sampler texture3Smplr [[sampler(5)]])
+{
+    float2 uv = -1. + 2. * In.v_texcoord;
+    float4 col = float4(
+        abs(sin(cos(uniform.time+3.*uv.y)*2.*uv.x+uniform.time)),
+        abs(cos(sin(uniform.time+2.*uv.x)*3.*uv.y+uniform.time)),
+        uniform.spectrum.x * 100.,
+        1.0);
+    return col;
+}
+]]></source>
+</shader>
+</stage>
+</stages>
+</pass>
+</passes>
+</document>
+</klxml>
